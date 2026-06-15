@@ -1,0 +1,82 @@
+/ - 200 - Success - Mon Jun 15 2026 07:36:19 GMT+0100 (Western European Summer Time)
+
+favicon.ico - 200 - Success - Mon Jun 15 2026 07:36:19 GMT+0100 (Western European Summer Time)
+
+books - 200 - Success - Mon Jun 15 2026 07:36:26 GMT+0100 (Western European Summer Time)
+
+books - 200 - Success - Mon Jun 15 2026 08:26:15 GMT+0100 (Western European Summer Time)
+
+authors - 200 - Success - Mon Jun 15 2026 08:26:19 GMT+0100 (Western European Summer Time)
+
+authors - 200 - Success - Mon Jun 15 2026 08:27:39 GMT+0100 (Western European Summer Time)
+
+authors - 200 - Success - Mon Jun 15 2026 08:28:31 GMT+0100 (Western European Summer Time)
+
+books - 200 - Success - Mon Jun 15 2026 08:28:36 GMT+0100 (Western European Summer Time)
+
+books - 200 - Success - Mon Jun 15 2026 08:30:45 GMT+0100 (Western European Summer Time)
+
+books, - 404 - Error: Route not found: 'books,' - Mon Jun 15 2026 08:32:46 GMT+0100 (Western European Summer Time)
+
+books, - 404 - Error: Route not found: 'books,' - Mon Jun 15 2026 08:33:38 GMT+0100 (Western European Summer Time)
+
+books, - 404 - Error: Route not found: 'books,' - Mon Jun 15 2026 08:33:38 GMT+0100 (Western European Summer Time)
+
+books, - 404 - Error: Route not found: 'books,' - Mon Jun 15 2026 08:33:38 GMT+0100 (Western European Summer Time)
+
+books, - 404 - Error: Route not found: 'books,' - Mon Jun 15 2026 08:33:39 GMT+0100 (Western European Summer Time)
+
+books, - 404 - Error: Route not found: 'books,' - Mon Jun 15 2026 08:33:39 GMT+0100 (Western European Summer Time)
+
+books, - 404 - Error: Route not found: 'books,' - Mon Jun 15 2026 08:33:58 GMT+0100 (Western European Summer Time)
+
+books, - 404 - Error: Route not found: 'books,' - Mon Jun 15 2026 08:33:59 GMT+0100 (Western European Summer Time)
+
+books, - 404 - Error: Route not found: 'books,' - Mon Jun 15 2026 08:33:59 GMT+0100 (Western European Summer Time)
+
+books, - 200 - Success - Mon Jun 15 2026 08:34:13 GMT+0100 (Western European Summer Time)
+
+books, - 200 - Success - Mon Jun 15 2026 08:34:14 GMT+0100 (Western European Summer Time)
+
+books, - 200 - Success - Mon Jun 15 2026 08:34:14 GMT+0100 (Western European Summer Time)
+
+books, - 200 - Success - Mon Jun 15 2026 08:34:14 GMT+0100 (Western European Summer Time)
+
+books,stock - 200 - Success - Mon Jun 15 2026 08:34:17 GMT+0100 (Western European Summer Time)
+
+books,stock - 200 - Success - Mon Jun 15 2026 08:38:43 GMT+0100 (Western European Summer Time)
+
+authors, - 200 - Success - Mon Jun 15 2026 08:38:47 GMT+0100 (Western European Summer Time)
+
+authors,1 - 200 - Success - Mon Jun 15 2026 08:38:52 GMT+0100 (Western European Summer Time)
+
+authors,2 - 200 - Success - Mon Jun 15 2026 08:38:59 GMT+0100 (Western European Summer Time)
+
+books, - 200 - Success - Mon Jun 15 2026 08:39:06 GMT+0100 (Western European Summer Time)
+
+authors, - 200 - Success - Mon Jun 15 2026 08:49:22 GMT+0100 (Western European Summer Time)
+
+authors,1 - 404 - Error: Error: Table 'library.book' doesn't exist - Mon Jun 15 2026 08:49:25 GMT+0100 (Western European Summer Time)
+
+authors,1 - 200 - Success - Mon Jun 15 2026 08:50:21 GMT+0100 (Western European Summer Time)
+
+authors,1 - 404 - Error: Error: Unknown column 'Author.Id' in 'on clause' - Mon Jun 15 2026 08:53:22 GMT+0100 (Western European Summer Time)
+
+authors,1 - 404 - Error: Error: Unknown column 'Author.Id' in 'on clause' - Mon Jun 15 2026 08:53:55 GMT+0100 (Western European Summer Time)
+
+authors,1 - 404 - Error: Error: Unknown column 'Author.Id' in 'on clause' - Mon Jun 15 2026 08:54:16 GMT+0100 (Western European Summer Time)
+
+authors,1 - 404 - Error: Error: Unknown column 'Author.Id' in 'on clause' - Mon Jun 15 2026 08:54:44 GMT+0100 (Western European Summer Time)
+
+authors,1 - 404 - Error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 1' at line 4 - Mon Jun 15 2026 08:58:17 GMT+0100 (Western European Summer Time)
+
+authors,1 - 404 - Error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 1' at line 4 - Mon Jun 15 2026 08:58:18 GMT+0100 (Western European Summer Time)
+
+authors,1 - 404 - Error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 1' at line 4 - Mon Jun 15 2026 08:58:18 GMT+0100 (Western European Summer Time)
+
+authors,1 - 404 - Error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 1' at line 4 - Mon Jun 15 2026 08:58:18 GMT+0100 (Western European Summer Time)
+
+authors,1 - 200 - Success - Mon Jun 15 2026 09:05:41 GMT+0100 (Western European Summer Time)
+
+authors,2 - 200 - Success - Mon Jun 15 2026 09:05:44 GMT+0100 (Western European Summer Time)
+

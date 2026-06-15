@@ -1,0 +1,7 @@
+{
+    "host": [IP],
+    "port": [PORT],
+    "user": [USR],
+    "password": [PASSWRD],
+    "database": "Library"
+}
