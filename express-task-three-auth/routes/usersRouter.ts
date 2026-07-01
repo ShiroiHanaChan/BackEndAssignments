@@ -34,6 +34,13 @@ const getUserRoute = ( request : Request, response : Response ) => {
 
 const createUserRoute = ( request : Request, response : Response ) => {
     express.json()( request, response, () => {
+
+        if ( users.some( taken => taken.username === request.body.username ) ) {
+            response.status( 406 );
+            response.send( { "message": "Username taken!" } );
+            return;
+        }
+
         const newUser : User = {
             "id": generateID(),
             ...request.body
