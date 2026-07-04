@@ -1,23 +1,31 @@
 "use strict";
 
 import express, {Request, Response} from 'express';
-import requireAuth from "../lib/requireAuth";
 import users from '../fixtures/users.json';
 import generateID from "../lib/generateID";
+import verifyAuth from "../lib/verifyAuth";
 
 interface User {
     "id": number,
     "name": string,
     "age": number,
     "username": string,
-    "password": string
+    "password": string,
+    "role": string
 }
 
 const usersRouter = express.Router();
 
-const getUsersRoute = ( _request : Request, response : Response ) => {
-    response.status( 200 );
-    response.json( users );
+const getUsersRoute = ( request : Request, response : Response ) => {
+    if ( request.body.role === 'admin' ) {
+        response.status( 200 ).json( users );
+    } else {
+        const passwordless = users.map( ( user : User ) => {
+            const { password, ...rest } = user;
+            return rest;
+        } )
+        response.status( 200 ).json( passwordless );
+    }
 }
 
 const getUserRoute = ( request : Request, response : Response ) => {
@@ -33,27 +41,24 @@ const getUserRoute = ( request : Request, response : Response ) => {
 }
 
 const createUserRoute = ( request : Request, response : Response ) => {
-    express.json()( request, response, () => {
+    if ( users.some( taken => taken.username === request.body.username ) ) {
+        response.status( 406 );
+        response.send( { "message": "Username taken!" } );
+        return;
+    }
 
-        if ( users.some( taken => taken.username === request.body.username ) ) {
-            response.status( 406 );
-            response.send( { "message": "Username taken!" } );
-            return;
-        }
+    const newUser : User = {
+        "id": generateID(),
+        ...request.body
+    }
 
-        const newUser : User = {
-            "id": generateID(),
-            ...request.body
-        }
+    users.push( newUser );
 
-        users.push( newUser );
-
-        response.status( 201 );
-        response.json( users[ users.length - 1 ] );
-    });
+    response.status( 201 );
+    response.json( users[ users.length - 1 ] );
 }
 
-usersRouter.use( requireAuth );
+usersRouter.use( verifyAuth );
 usersRouter.route( '/' )
         .get( getUsersRoute )
         .post( createUserRoute );

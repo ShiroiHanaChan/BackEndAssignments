@@ -2,6 +2,8 @@
 
 import {Request, Response, NextFunction} from "express";
 
+// Use with basicAuth
+
 interface CheckUser extends Request {
     authorization? : string
 }

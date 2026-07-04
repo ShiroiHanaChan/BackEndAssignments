@@ -4,111 +4,127 @@
     "name": "Surume",
     "age": 26,
     "username": "kelpshot",
-    "password": "popcorn"
+    "password": "popcorn",
+    "role": "viewer"
   },
   {
     "id": 1,
     "name": "Lucas Silva",
     "age": 28,
     "username": "lucas.silva",
-    "password": "pbkdf2_sha256$260000$xyz123"
+    "password": "pbkdf2_sha256$260000$xyz123",
+    "role": "viewer"
   },
   {
     "id": 2,
     "name": "Mariana Santos",
     "age": 34,
     "username": "mari.santos",
-    "password": "argon2$v=19$m=65536,t=3,p=4$abc456"
+    "password": "argon2$v=19$m=65536,t=3,p=4$abc456",
+    "role": "viewer"
   },
   {
     "id": 3,
     "name": "Pedro Oliveira",
     "age": 22,
     "username": "pedro.oli",
-    "password": "bcrypt$$2b$12$def789"
+    "password": "bcrypt$$2b$12$def789",
+    "role": "viewer"
   },
   {
     "id": 4,
     "name": "Ana Costa",
     "age": 41,
     "username": "ana.costa",
-    "password": "pbkdf2_sha256$260000$ghi012"
+    "password": "pbkdf2_sha256$260000$ghi012",
+    "role": "viewer"
   },
   {
     "id": 5,
     "name": "Bruno Souza",
     "age": 19,
     "username": "bruno.souza",
-    "password": "argon2$v=19$m=65536,t=3,p=4$jkl345"
+    "password": "argon2$v=19$m=65536,t=3,p=4$jkl345",
+    "role": "viewer"
   },
   {
     "id": 6,
     "name": "Beatriz Lima",
     "age": 26,
     "username": "bia.lima",
-    "password": "bcrypt2b12mno678"
+    "password": "bcrypt2b12mno678",
+    "role": "viewer"
   },
   {
     "id": 7,
     "name": "Gabriel Almeida",
     "age": 31,
     "username": "gabriel.a",
-    "password": "pbkdf2_sha256$260000$pqr901"
+    "password": "pbkdf2_sha256$260000$pqr901",
+    "role": "viewer"
   },
   {
     "id": 8,
     "name": "Juliana Ribeiro",
     "age": 45,
     "username": "ju.ribeiro",
-    "password": "argon2$v=19$m=65536,t=3,p=4$stu234"
+    "password": "argon2$v=19$m=65536,t=3,p=4$stu234",
+    "role": "viewer"
   },
   {
     "id": 9,
     "name": "Carlos Pereira",
     "age": 38,
     "username": "carlos.p",
-    "password": "bcrypt$$2b$12$vwx567"
+    "password": "bcrypt$$2b$12$vwx567",
+    "role": "viewer"
   },
   {
     "id": 10,
     "name": "Amanda Martins",
     "age": 23,
     "username": "amanda.m",
-    "password": "pbkdf2_sha256$260000$yzb890"
+    "password": "pbkdf2_sha256$260000$yzb890",
+    "role": "viewer"
   },
   {
     "id": 11,
     "name": "Felipe Carvalho",
     "age": 29,
     "username": "felipe.carvalho",
-    "password": "argon2$v=19$m=65536,t=3,p=4$cde123"
+    "password": "argon2$v=19$m=65536,t=3,p=4$cde123",
+    "role": "viewer"
   },
   {
     "id": 12,
     "name": "Larissa Rocha",
     "age": 35,
     "username": "lari.rocha",
-    "password": "bcrypt$$2b$12$fgh456"
+    "password": "bcrypt$$2b$12$fgh456",
+    "role": "viewer"
   },
   {
     "id": 13,
     "name": "Rodrigo Mendes",
     "age": 50,
     "username": "rodrigo.m",
-    "password": "pbkdf2_sha256$260000$ijk789"
+    "password": "pbkdf2_sha256$260000$ijk789",
+    "role": "admin"
   },
   {
     "id": 14,
     "name": "Camila Nunes",
     "age": 27,
     "username": "camila.nunes",
-    "password": "argon2$v=19$m=65536,t=3,p=4$lmn012"
+    "password": "argon2$v=19$m=65536,t=3,p=4$lmn012",
+    "role": "viewer"
   },
   {
     "id": 15,
     "name": "Gustavo Ferraz",
     "age": 33,
     "username": "gustavo.f",
-    "password": "bcrypt$$2b$12$opq345"
+    "password": "bcrypt$$2b$12$opq345",
+    "role": "admin"
   }
 ]

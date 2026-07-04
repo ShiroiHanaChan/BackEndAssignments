@@ -4,6 +4,8 @@ import {Request, Response, NextFunction} from "express";
 import findUser from "./findUser";
 import loginLog from "./loginLog";
 
+// Use with requireAuth
+
 export default async ( request : Request, response : Response, next : NextFunction )=> {
     const headers = request.headers.authorization || '';
 
